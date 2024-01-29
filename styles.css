@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 2em;
+}
+
+.hero {
+    text-align: center;
+    background-color:goldenrod;
+}
+.main{
+    width: 25vw;
+    height: auto;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.product {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.product img {
+    width: 50vw;
+    height: auto;
+    border-radius: 5px;
+}
+
+.about-content {
+    text-align: center;
+    
+}
+
+footer {
+    background-color: #0F1111;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
